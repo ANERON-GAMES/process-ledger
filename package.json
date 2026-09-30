@@ -1,0 +1,12 @@
+{
+  "name": "@aneron/process-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One live process per role, with an append-only start ledger and duplicate recovery.",
+  "license": "MIT",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
